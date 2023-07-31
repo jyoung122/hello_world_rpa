@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230729 13:32:23.971" rpa="true" schemaversion="4">
+<suite id="s1" name="Helloworld" source="C:\Temp\RoboCorp\hello_world_rpa\helloworld.robot">
+<test id="s1-t1" name="Hello World" line="7">
+<kw name="Create File" library="OperatingSystem">
+<arg>outputs/hello_world.txt</arg>
+<arg>Hello World!</arg>
+<doc>Creates a file with the given content and encoding.</doc>
+<msg timestamp="20230729 13:32:24.014" level="INFO" html="true">Created file '&lt;a href="file://C:\Temp\RoboCorp\hello_world_rpa\outputs\hello_world.txt"&gt;C:\Temp\RoboCorp\hello_world_rpa\outputs\hello_world.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20230729 13:32:24.011" endtime="20230729 13:32:24.014"/>
+</kw>
+<status status="PASS" starttime="20230729 13:32:24.011" endtime="20230729 13:32:24.014"/>
+</test>
+<doc>Template robot main suite.</doc>
+<status status="PASS" starttime="20230729 13:32:23.971" endtime="20230729 13:32:24.017"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Helloworld">Helloworld</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
